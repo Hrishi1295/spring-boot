@@ -38,9 +38,6 @@ public class Product {
 	Status status;
 	
 	
-
-
-	
 	public Product(int pId, String pname, PType ptype, double grossWeight, double netWeight, Status status) {
 		super();
 		PId = pId;
@@ -110,10 +107,6 @@ public class Product {
 				+ ", NetWeight=" + NetWeight + ", status=" + status + "]";
 	}
 
-	public Product getQuantity() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	
 	

@@ -4,8 +4,8 @@ import com.shop.pojo.Reciept;
 
 public interface IRecieptDao {
 	
-	void CancelReciept(int Rid);
-	void UpdateReciept(int Rid);
+	Reciept CancelReciept(Reciept Rid);
+	void UpdateReciept(Reciept Rid);
 	Reciept MakeReciept(Reciept r);
 
 }
